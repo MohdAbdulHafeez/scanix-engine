@@ -16,6 +16,10 @@ from modules.ingredients.router import (
     router as ingredients_router
 )
 
+from modules.nutrition.router import (
+    router as nutrition_router
+)
+
 
 app = FastAPI(
 
@@ -76,4 +80,16 @@ app.include_router(
 
 logger.info(
     "SCANIX started"
+)
+
+
+# SYSTEM 3
+app.include_router(
+
+    nutrition_router,
+
+    prefix="/api/v1",
+
+    tags=["System 3 • Nutrition"]
+
 )
