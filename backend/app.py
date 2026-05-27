@@ -12,6 +12,10 @@ from api.v1.router import (
     router,
 )
 
+from modules.ingredients.router import (
+    router as ingredients_router
+)
+
 
 app = FastAPI(
 
@@ -48,11 +52,24 @@ async def health():
     }
 
 
+# SYSTEM 1
 app.include_router(
 
     router,
 
     prefix=settings.API_PREFIX,
+
+)
+
+
+# SYSTEM 2
+app.include_router(
+
+    ingredients_router,
+
+    prefix="/api/v1",
+
+    tags=["System 2 • Ingredients"]
 
 )
 

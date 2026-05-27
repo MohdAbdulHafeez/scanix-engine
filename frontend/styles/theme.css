@@ -1,0 +1,317 @@
+:root{
+
+/* ==========================
+BASE CANVAS
+========================== */
+
+--bg:#FFFDF7;
+
+--bg-soft:#FAF8F2;
+
+--surface:#FFFFFF;
+
+--surface-secondary:#F7F5EE;
+
+--surface-elevated:#FCFCF9;
+
+
+/* ==========================
+GREEN SYSTEM
+========================== */
+
+--green-50:#F3FBF6;
+
+--green-100:#EAF7F0;
+
+--green-150:#E2F5EA;
+
+--green-200:#D9F0E3;
+
+--green-300:#BCE3CF;
+
+--green-400:#8FCCAB;
+
+--green-500:#5DB686;
+
+--green-600:#359B69;
+
+--green-700:#247A51;
+
+--green-800:#1A6242;
+
+--green-900:#12392B;
+
+
+/* ==========================
+IVORY / WHITE SYSTEM
+========================== */
+
+--white:#FFFFFF;
+
+--pure:#FEFEFD;
+
+--ivory:#FFFDF7;
+
+--cream:#F7F5EE;
+
+--linen:#F2EEE7;
+
+--snow:#F9F9F6;
+
+--beige:#ECE8DF;
+
+--warm:#E7E2D8;
+
+
+/* ==========================
+MINT + CALM COLORS
+========================== */
+
+--mint:#D8F2E4;
+
+--mint-soft:#ECFBF3;
+
+--mint-glow:#EAFBF2;
+
+--aqua:#DDF4EE;
+
+--leaf:#CAE8D8;
+
+
+/* ==========================
+ACCENTS
+========================== */
+
+--success:#38C172;
+
+--warning:#FFB86B;
+
+--danger:#F47272;
+
+--gold:#FFCE73;
+
+--lavender:#C7A7FF;
+
+--teal:#4ABF9B;
+
+
+/* ==========================
+TEXT
+========================== */
+
+--text:#081126;
+
+--text-secondary:#334155;
+
+--muted:#6B7280;
+
+--muted-light:#9AA5B1;
+
+--black-soft:#0F172A;
+
+
+/* ==========================
+GRADIENTS
+========================== */
+
+--gradient-main:
+
+linear-gradient(
+135deg,
+
+#F8FBF8 0%,
+
+#F2F8F3 25%,
+
+#EDF8F0 55%,
+
+#E8F4EC 100%
+);
+
+--gradient-green:
+
+linear-gradient(
+135deg,
+
+#247A51,
+
+#359B69,
+
+#5DB686
+);
+
+--gradient-card:
+
+linear-gradient(
+180deg,
+
+rgba(255,255,255,.92),
+
+rgba(250,251,248,.96)
+);
+
+--gradient-glow:
+
+radial-gradient(
+
+circle,
+
+rgba(
+53,
+155,
+105,
+0.22
+),
+
+transparent 70%
+);
+
+
+/* ==========================
+SHADOWS
+========================== */
+
+--shadow-xs:
+
+0 4px 10px
+rgba(
+0,
+0,
+0,
+0.03
+);
+
+--shadow-sm:
+
+0 12px 30px
+rgba(
+0,
+0,
+0,
+0.04
+);
+
+--shadow-md:
+
+0 18px 60px
+rgba(
+0,
+0,
+0,
+0.06
+);
+
+--shadow-lg:
+
+0 30px 90px
+rgba(
+0,
+0,
+0,
+0.08
+);
+
+--shadow-xl:
+
+0 50px 150px
+rgba(
+0,
+0,
+0,
+0.12
+);
+
+--shadow-green:
+
+0 30px 120px
+rgba(
+53,
+155,
+105,
+0.18
+);
+
+
+/* ==========================
+GLASS
+========================== */
+
+--glass:
+
+rgba(
+255,
+255,
+255,
+0.62
+);
+
+--glass-border:
+
+rgba(
+255,
+255,
+255,
+0.8
+);
+
+
+/* ==========================
+RADIUS
+========================== */
+
+--radius-sm:18px;
+
+--radius-md:28px;
+
+--radius-lg:40px;
+
+--radius-xl:54px;
+
+--radius-hero:72px;
+
+
+/* ==========================
+TRANSITIONS
+========================== */
+
+--fast:.2s;
+
+--normal:.35s;
+
+--slow:.7s;
+
+
+/* ==========================
+FLOATING ELEMENTS
+========================== */
+
+--float:
+
+translateY(
+-10px
+);
+
+--hover-scale:
+
+1.03;
+
+
+/* ==========================
+PREMIUM EFFECTS
+========================== */
+
+--blur:
+
+24px;
+
+--hero-glow:
+
+0 0 250px
+rgba(
+53,
+155,
+105,
+0.18
+);
+
+}
