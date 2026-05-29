@@ -20,6 +20,10 @@ from modules.nutrition.router import (
     router as nutrition_router
 )
 
+from modules.trust.router import (
+    router as trust_router
+)
+
 
 app = FastAPI(
 
@@ -91,5 +95,19 @@ app.include_router(
     prefix="/api/v1",
 
     tags=["System 3 • Nutrition"]
+
+)
+
+
+# SYSTEM 4
+app.include_router(
+
+    trust_router,
+
+    prefix="/api/v1",
+
+    tags=[
+        "System 4 • Trust & Compliance"
+    ]
 
 )

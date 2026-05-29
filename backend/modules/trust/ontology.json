@@ -1,0 +1,51 @@
+{
+  "preservatives": [
+    "sodium benzoate",
+    "potassium sorbate",
+    "calcium propionate",
+    "sulphur dioxide",
+    "sodium nitrite",
+    "sodium nitrate"
+  ],
+
+  "artificial_colors": [
+    "tartrazine",
+    "sunset yellow",
+    "allura red",
+    "brilliant blue",
+    "ponceau 4r",
+    "carmoisine"
+  ],
+
+  "artificial_sweeteners": [
+    "aspartame",
+    "sucralose",
+    "saccharin",
+    "acesulfame k",
+    "cyclamate"
+  ],
+
+  "flavour_enhancers": [
+    "msg",
+    "monosodium glutamate",
+    "disodium inosinate",
+    "disodium guanylate"
+  ],
+
+  "non_vegan": [
+    "gelatin",
+    "casein",
+    "whey",
+    "lactose",
+    "fish oil",
+    "egg powder"
+  ],
+
+  "gluten_sources": [
+    "wheat",
+    "barley",
+    "rye",
+    "malt",
+    "semolina"
+  ]
+}

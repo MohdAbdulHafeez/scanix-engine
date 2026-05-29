@@ -1,0 +1,100 @@
+{
+  "high protein": {
+    "nutrient": "protein",
+    "operator": ">=",
+    "threshold": 10,
+    "unit": "g",
+    "per": "100g",
+    "reference": "FSSAI Food Safety and Standards (Labelling and Display) Regulations 2020"
+  },
+
+  "source of protein": {
+    "nutrient": "protein",
+    "operator": ">=",
+    "threshold": 5,
+    "unit": "g",
+    "per": "100g",
+    "reference": "FSSAI FSS Regulations 2020"
+  },
+
+  "low fat": {
+    "nutrient": "fat",
+    "operator": "<=",
+    "threshold": 3,
+    "unit": "g",
+    "per": "100g",
+    "reference": "FSSAI FSS Regulations 2020"
+  },
+
+  "fat free": {
+    "nutrient": "fat",
+    "operator": "<=",
+    "threshold": 0.5,
+    "unit": "g",
+    "per": "100g",
+    "reference": "FSSAI FSS Regulations 2020"
+  },
+
+  "low sugar": {
+    "nutrient": "sugar",
+    "operator": "<=",
+    "threshold": 5,
+    "unit": "g",
+    "per": "100g",
+    "reference": "FSSAI FSS Regulations 2020"
+  },
+
+  "sugar free": {
+    "nutrient": "sugar",
+    "operator": "<=",
+    "threshold": 0.5,
+    "unit": "g",
+    "per": "100g",
+    "reference": "FSSAI FSS Regulations 2020"
+  },
+
+  "low sodium": {
+    "nutrient": "sodium",
+    "operator": "<=",
+    "threshold": 120,
+    "unit": "mg",
+    "per": "100g",
+    "reference": "FSSAI FSS Regulations 2020"
+  },
+
+  "sodium free": {
+    "nutrient": "sodium",
+    "operator": "<=",
+    "threshold": 5,
+    "unit": "mg",
+    "per": "100g",
+    "reference": "FSSAI FSS Regulations 2020"
+  },
+
+  "low calorie": {
+    "nutrient": "calories",
+    "operator": "<=",
+    "threshold": 40,
+    "unit": "kcal",
+    "per": "100g",
+    "reference": "FSSAI FSS Regulations 2020"
+  },
+
+  "high fibre": {
+    "nutrient": "fibre",
+    "operator": ">=",
+    "threshold": 6,
+    "unit": "g",
+    "per": "100g",
+    "reference": "FSSAI FSS Regulations 2020"
+  },
+
+  "source of fibre": {
+    "nutrient": "fibre",
+    "operator": ">=",
+    "threshold": 3,
+    "unit": "g",
+    "per": "100g",
+    "reference": "FSSAI FSS Regulations 2020"
+  }
+}
