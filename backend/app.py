@@ -1,3 +1,7 @@
+from dotenv import load_dotenv
+
+load_dotenv()
+
 from fastapi import FastAPI
 
 from config.settings import (
@@ -22,6 +26,18 @@ from modules.nutrition.router import (
 
 from modules.trust.router import (
     router as trust_router
+)
+
+from modules.ai.router import (
+    router as ai_router
+)
+
+from modules.ai.agent_router import (
+    router as agent_router
+)
+
+from modules.ai.nutrition_planner_router import (
+    router as planner_router
 )
 
 
@@ -109,5 +125,43 @@ app.include_router(
     tags=[
         "System 4 • Trust & Compliance"
     ]
+
+)
+
+
+# SYSTEM 5
+app.include_router(
+
+    ai_router,
+
+    prefix="/api/v1/ai",
+
+    tags=[
+        "System 5 - AI Intelligence"
+    ]
+
+)
+
+
+app.include_router(
+
+    agent_router,
+
+    prefix="/api/v1/agent",
+
+    tags=[
+        "System 5 - AI Nutritionist"
+    ]
+
+)
+
+
+app.include_router(
+
+    planner_router,
+
+    prefix="/api/v1/planner",
+
+    tags=["Nutrition Planner"]
 
 )
